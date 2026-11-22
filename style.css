@@ -2,7 +2,7 @@
 html { scroll-behavior: smooth; font-family: Arial, Helvetica, sans-serif; }
 body { margin: 0; overflow-x: auto; line-height: 1.55; }
 .site-header {
-  height: 120px;
+  height: 50px;
   background: #111;
   color: #fff;
   padding: 15px 24px;
@@ -14,6 +14,7 @@ body { margin: 0; overflow-x: auto; line-height: 1.55; }
 }
 .site-header a { color: #fff; text-decoration: none; }
 .site-header a:hover, .site-header a:focus { text-decoration: underline; }
+.site-logo { height: 50px; }
 .site-brand { font-size: 1.2rem; font-weight: 700; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; }
 .document { max-width: 1000px; margin: 40px auto; padding: 0 24px 60px; }
