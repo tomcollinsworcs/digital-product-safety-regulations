@@ -5,7 +5,7 @@ body { margin: 0; overflow-x: auto; line-height: 1.55; }
   height: 50px;
   background: #111;
   color: #fff;
-  padding: 15px 24px;
+  padding: 0px 0px; /* was 15px 24px */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
