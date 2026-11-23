@@ -19,8 +19,8 @@ body { margin: 0; overflow-x: auto; line-height: 1.55; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 10px 22px; }
 .document { max-width: 1000px; margin: 40px auto; padding: 0 24px 60px; }
 /*.document img { max-width: 100%; height: auto; } */
-.document table { display: block; max-width: 100%; overflow-x: auto; border: none; }
-.document table, .document th, .document td { border: 1px solid #444; border-collapse: collapse; padding: 4px; }
+/*.document table { display: block; max-width: 100%; overflow-x: auto; border: none; } */
+.document table, .document th, .document td { border: 1px solid black; border-collapse: collapse; }
 @media print {
   @page { size: 892px 1262px; }
   .site-header { display: none; }
