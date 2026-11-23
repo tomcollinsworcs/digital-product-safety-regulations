@@ -22,7 +22,9 @@ body { margin: 0; overflow-x: auto; line-height: 1.55; }
 /*.document table { display: block; max-width: 100%; overflow-x: auto; border: none; } */
 .document table, .document th, .document td { border: 1px solid black; border-collapse: collapse; }
 @media print {
-  @page { size: 892px 1262px; }
-  .site-header { display: none; }
+  /* @page { size: 892px 1262px; } */
+  h1 { page-break-before: always; }
+  @page { size: A4 portrait; }
+  .site-header { display: none; } 
   .document { margin: 0; padding: 0; max-width: none; }
 }
